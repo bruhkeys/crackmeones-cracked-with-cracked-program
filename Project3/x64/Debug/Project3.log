@@ -1,0 +1,17 @@
+﻿  menu.cpp
+C:\Users\user\source\repos\Project3\Project3\menu.cpp(35,15): warning C4244: 'initializing': conversion from 'DWORD64' to 'DWORD', possible loss of data
+C:\Users\user\source\repos\Project3\Project3\menu.cpp(44,16): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\user\source\repos\Project3\Project3\menu.cpp(44,16): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\user\source\repos\Project3\Project3\Header.h(49,1): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\user\source\repos\Project3\Project3\menu.cpp(42): message : see reference to function template instantiation 'T readMem<unsigned int>(DWORD,HANDLE)' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\user\source\repos\Project3\Project3\Header.h(56,1): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\user\source\repos\Project3\Project3\menu.cpp(53): message : see reference to function template instantiation 'void writeMem<int>(DWORD,T,HANDLE)' being compiled
+          with
+          [
+              T=int
+          ]
+  Project3.vcxproj -> C:\Users\user\source\repos\Project3\x64\Debug\Project3.exe
